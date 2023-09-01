@@ -1,0 +1,68 @@
+.App{
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+} 
+
+.Imahe{
+    margin: 10px;
+}
+
+#button1{
+    background-color: red;
+    padding: 10px 25px 10px;
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+    margin-top:5px;
+    
+}
+
+#button2{
+    background-color: rgb(17, 0, 252);
+    padding: 10px 25px 10px;
+    border-radius: 10px;
+    margin-top:5px;
+}
+
+#text-1{
+    padding: 10px 25px 10px;
+    border-radius: 10px;
+    margin-top:5px;
+}
+
+#text-3,
+#text-4{
+    background-color: rgb(5, 224, 5);
+    padding: 10px 25px 10px;
+    border-radius: 10px;
+    margin-top:5px;
+}
+#image1{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: 2px;
+}
+
+
+#button1,
+#button2 {
+        display: block;
+        text-align: center;
+}
+
+#text-1,
+#text-3,
+#text-4{
+        display: block;
+        text-align: center;
+        
+}
+#image2{
+        width: 200px;
+        height: 200px;
+        border-radius: 10%;
+        margin: 2px;
+}
